@@ -3,8 +3,10 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <NavLink to="/invent">Header</NavLink>
-      <NavLink to="/footer">Footer</NavLink>
+      <nav>
+        <NavLink to="/invent">Header</NavLink>
+        <NavLink to="/footer">Footer</NavLink>
+      </nav>
       <p>Hellooooooooooooooooo</p>
     </div>
   );

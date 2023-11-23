@@ -8,8 +8,8 @@ const Path = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/invent" component={Invent} />
-        <Route path="/footer" component={Footer} />
+        <Route path="/invent" element={<Invent />} />
+        <Route path="/footer" element={<Footer />} />
       </Routes>
     </BrowserRouter>
   );
