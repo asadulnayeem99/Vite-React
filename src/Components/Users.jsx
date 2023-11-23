@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-
+import { useEffect, useState } from "react";
 const Users = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
@@ -11,7 +10,7 @@ const Users = () => {
     <div>
       {users.map((x, index) => (
         <li key={index}>
-          name:{x.name} || address={x.address.city}
+          name:{x.name} || Address={x.address.city}
         </li>
       ))}
     </div>

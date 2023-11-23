@@ -1,18 +1,11 @@
-import React from "react";
-const style = {
-  display: "flex",
-  gap: "10px",
-  textDecoration: "none",
-  fontSize: "20px",
-  color: "green",
-};
+import { NavLink } from "react-router-dom";
+import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <nav style={style}>
-        <a href="/invent">Header</a>
-        <a href="/footer">Footer</a>
-      </nav>
+      <NavLink to="/invent">Header</NavLink>
+      <NavLink to="/footer">Footer</NavLink>
+      <p>Hellooooooooooooooooo</p>
     </div>
   );
 };

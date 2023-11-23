@@ -1,9 +1,12 @@
-import React from "react";
-
 const Footer = () => {
+  const style = {
+    textAlign: "center",
+    color: "red",
+    backgroundColor: "lightyellow",
+  };
   return (
     <div>
-      <h1>This is Footer</h1>
+      <h1 style={style}>This is Footer</h1>
     </div>
   );
 };
